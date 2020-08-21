@@ -1,0 +1,81 @@
+/* Start body */
+body {
+    
+}
+/* End body */
+
+/* start Container */
+.container {
+    width:1000px;
+    margin:auto;
+}
+/* End Container */
+
+/* start Navbar 1 */
+.navbar1 {
+    background-color:#f5f5f5;
+    height:35px ;
+    margin:-8px -8px 0 -10px;
+}
+.Social-Media ul , .Option ul {
+    
+    padding:10px;
+    margin-top:-4px;
+    
+}
+.Social-Media ul{ float:left;}
+.Social-Media  ul li , .Option ul li {
+    display:inline;
+    margin-left:30px;    
+}
+.Option ul li {color:#797979;font-size: 13px;cursor:pointer;}
+.Option ul li:hover {color:#1a8bed}
+.Social-Media img {transition:all .5s ease-in-out;}
+.Social-Media  li img:hover {transform:rotateY(360deg) scale(1.2 , 1.2);cursor:pointer;}
+.Option ul  { 
+    float:right; 
+}
+.Option ul  li a:after{margin-left:10px; content:'|'}
+.Option button {background-color:#f5f5f5;border:none;float:right;margin:1px -10px 0 10px;cursor:pointer;font-size:18px;}
+/* Start Account */
+.account {clear: both;float: right;display:none;margin:0px 85px 0 19px;}
+.account ul li {list-style-type:none}
+.account ul li{background-color:#949494 ;color:white;font-size:17px;padding:2px 47px 12px 62px;border-radius:50px;margin-bottom:8px}
+.account a {text-decoration:none;color:white;}
+
+/* End Account */
+/* End Navbar 1 */
+
+/* start Navbar 2 */
+.logo img{margin:-49px -18px 0 0;cursor: pointer;margin-left: -300px;}
+.logo img, .logo span, .logo h2 {float:left;}
+.logo h2 {margin:-22px -42px 0 6px;font-family:Trebuchet MS;color:darkturquoise;}
+.logo span {margin-left:-123px;color:#a69f9f;margin-top:4px;}
+.loc-call {margin-top:50px;margin-right:20px;}
+.loc-call img {padding-left:50px;}
+.loc-call img,.loc-call span {float:right;}
+.loc-call span  {margin-left:10px;}
+.loc-call span  i {color:red;font-size:17px;}
+
+/* End Navbar 2 */
+.hr {border:0px;height:2px; background-color:#dddddd;}
+/* Start Block  */
+.block  {background-color:#f5f5f5;height:55px;margin:-16px -12px -28px -12px}
+.block ul button:first-child{margin-left:-67px;}
+.block ul li {font-family:Source Sans Pro; display:inline;list-style-type:none;padding:13px 13px 0 22px;float:left;text-transform:uppercase;}
+.block .active {border-bottom:2px solid#1a8bed;}
+.block button {border:none;margin: 5px -7px 6px -9px;padding:0px;padding-bottom:10px; background-color:#f5f5f5;}
+.block ul button:last-child{float:right;height: 55px;margin-top: -1px;background-color:#1a8bed;color:white;margin-right:-427px;}
+.block button:last-child:hover{border-bottom:none;}
+.block button:hover {border-bottom:2px solid#1a8bed;cursor:pointer;}
+/* End Block  */
+/* Start Slider */
+.slider {background-image:url('WINER.jpg');background-size:100%;height:821px;;margin:-15px -15px 0 -9px;background-attachment: fixed;}
+.Read-More {float:left}
+.Find-Direction {background-color:#ffff;opacity:0.8;float:right;margin:10% 13% 0 0;padding:37px;padding-right: 82px;}
+.Find-Direction figure li {list-style-type:none;display:block;}
+.Find-Direction figure input {width: 300px;padding: 13px;margin:6px -30px 27px 0%;border:solid 1px #dadada;}
+.Find-Direction figure input[type='Submit'] {background-color:#ffdf00;color:white;border-radius:5%;}
+.Find-Direction figure img {margin-bottom:-6px;}
+
+/* End Slider */

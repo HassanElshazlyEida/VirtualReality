@@ -1,0 +1,85 @@
+/* Start Register */
+ .img-reg
+	{
+		background-image:url('Nile_University-2.jpg');
+		background-size:100%;
+		background-repeat:round;
+        height:805px;
+        margin:29px -11px 0 -9px;
+	}
+	.register1 {border-radius:5px;height:400px;}
+	.register1 .register1-,.register1-- {width:20%;}
+	.register1-,.register1-- {text-align:center;margin:100 0 0 20;}
+	.register1-  
+		{	
+		background-color:white;
+		border-radius:5px;
+		text-align:left;
+		padding:5px;
+        float:right;
+        margin:14% 17% 0 0;
+		}
+	.register1-  h2
+		{
+		font-weight:300;
+		font-size:28px;
+		font-family:'Algerian';
+		margin-left:25px;
+		color:#0beb75;
+		}
+	.register1- [type='text'],[type='password']
+		{
+		width:170px;
+		margin-left:25px;
+		border:none;
+		height:30px;
+		border-bottom:2px solid#89e907;
+		margin-bottom:25px;
+		color:#222;
+		}
+
+		.register1- [type='radio']
+		{margin-left:25px;color:#b9b9b9}
+		.register1- select {display:block;margin-left:25px;margin-top:10px;margin-bottom:15px;}
+	.register1- .sign-up
+		{
+		text-align:center;
+		width:100px;
+		background-color:#16a085;
+		height:30px;
+		border:none;
+		font-size:17px;
+		border-radius:3px;
+		cursor:pointer;
+        color:white;
+        margin-left: 100px;
+		}
+		.register1- .sign-up:hover {box-shadow:5px 5px 5px #ddd}
+	.register1-  h5{color:#b9b9b9;margin-top:-18px;margin-left:20px;}
+	.register1--  
+		{
+		background-color:white;
+		border-radius:5px;
+		height:500px;
+		text-align:left;
+		padding:5px;
+        float:left;
+        margin:14% 0 0 21%;
+		}
+	.register1--  .Link 
+		{
+		display:block;
+		width:75%;
+        color:white;
+		margin:auto;
+		text-align:center;
+		margin-top:150px;
+		margin-bottom:-120px;
+		height:36px;
+		border-radius:5px;
+		padding-top:8px;
+		}
+    .register1--  .Link:hover {box-shadow:5px 4px 15px #ddd;}
+	.register2 img {margin:150 0 0 100}
+a {text-decoration:none;}
+		
